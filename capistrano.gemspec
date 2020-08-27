@@ -32,6 +32,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rake", ">= 10.0.0"
   gem.add_dependency "sshkit", ">= 1.9.0"
 
+  gem.add_dependency "appmap"
+
   gem.add_development_dependency "mocha"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rubocop", "0.48.1"
