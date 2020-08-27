@@ -1,0 +1,4 @@
+name: capistrano
+
+packages:
+- path: lib
